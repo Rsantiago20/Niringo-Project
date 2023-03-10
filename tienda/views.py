@@ -6,4 +6,7 @@ def inicio(request):
 
 def catalogo(request):
     return HttpResponse("<h3>Bienvenido al cátalogo de juegos</h3>")
+
+def carrito(request):
+    return HttpResponse("<h3>Bienvenido al carrito</h3>")
 # Create your views here.
